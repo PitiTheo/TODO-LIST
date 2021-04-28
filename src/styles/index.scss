@@ -1,13 +1,16 @@
-@import "~bootstrap/scss/bootstrap.scss";
-
-/* 
-
-    You can write your own styles here...
+html{
+    background: rgb(152, 125, 214);
+}
+.contenedor{
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+    width: 400px;
+    height: 250px;
+    margin: center;
+}
+.btnDelete{
+    display: hidden;
+    background: rgb(201, 28, 28);
+}
+.btnDelete :hover{
+    display: show;
+}
